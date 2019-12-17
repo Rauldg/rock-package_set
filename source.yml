@@ -227,10 +227,9 @@ version_control:
         branch: $ROCK_BRANCH
 
     - drivers/aria:
-        type: archive
-        url: http://robots.mobilerobots.com/ARIA/download/archives/ARIA-2.7.5+gcc4.3.tgz
-        update_cached_file: false
+        github: reedhedges/AriaCoda
         patches: $AUTOPROJ_SOURCE_DIR/patches/aria_pc.patch
+        branch: master
 
     - drivers/phidgets:
         type: archive
