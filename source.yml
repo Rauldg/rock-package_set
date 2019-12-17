@@ -227,9 +227,9 @@ version_control:
         branch: $ROCK_BRANCH
 
     - drivers/aria:
-        github: reedhedges/AriaCoda
+        github: rauldg/AriaCoda
         patches: $AUTOPROJ_SOURCE_DIR/patches/aria_pc.patch
-        branch: master
+        branch: rock-fixes
 
     - drivers/phidgets:
         type: archive
